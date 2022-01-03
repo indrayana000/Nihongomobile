@@ -723,7 +723,7 @@
                 <TableRow android:background="#ffff">
 
                     <Button
-                        android:id="@+id/buttonkatakana_ba"
+                        android:id="@+id/buttonkatakana_pa"
                         android:layout_width="50dp"
                         android:layout_height="50dp"
                         android:layout_gravity="center"
@@ -731,7 +731,7 @@
                         android:textColor="#406882" />
 
                     <Button
-                        android:id="@+id/buttonkatakana_bi"
+                        android:id="@+id/buttonkatakana_pi"
                         android:layout_width="50dp"
                         android:layout_height="50dp"
                         android:layout_gravity="center"
@@ -739,7 +739,7 @@
                         android:textColor="#406882" />
 
                     <Button
-                        android:id="@+id/buttonkatakana_bu"
+                        android:id="@+id/buttonkatakana_pu"
                         android:layout_width="50dp"
                         android:layout_height="50dp"
                         android:layout_gravity="center"
@@ -747,7 +747,7 @@
                         android:textColor="#406882" />
 
                     <Button
-                        android:id="@+id/buttonkatakana_be"
+                        android:id="@+id/buttonkatakana_pe"
                         android:layout_width="50dp"
                         android:layout_height="50dp"
                         android:layout_gravity="center"
@@ -755,7 +755,7 @@
                         android:textColor="#406882" />
 
                     <Button
-                        android:id="@+id/buttonkatakana_bo"
+                        android:id="@+id/buttonkatakana_po"
                         android:layout_width="50dp"
                         android:layout_height="50dp"
                         android:layout_gravity="center"
