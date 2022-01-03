@@ -1,0 +1,629 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="@+id/scrollView2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="174dp"
+            android:layout_height="24dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="30dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/hiragana"
+            />
+    </LinearLayout>
+
+
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="0dp"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout2"
+        tools:layout_editor_absoluteX="0dp">
+        <!-- Here you put the rest of your current view-->
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical">
+            <!-- bla bla bla-->
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="25dp" />
+
+            <TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:stretchColumns="*"
+                >
+
+                <TableRow
+                    android:background="#ffff">
+
+                    <Button
+                        android:id="@+id/buttonhiragana_a"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:layout_gravity="center"
+                        android:text="あ"
+                        android:textColor="#406882"
+                        />
+
+                    <Button
+                        android:id="@+id/buttonhiragana_i"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:layout_gravity="center"
+                        android:text="い"
+                        android:textColor="#406882"
+                        />
+
+                    <Button
+                        android:id="@+id/buttonhiragana_u"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:layout_gravity="center"
+                        android:text="う"
+                        android:textColor="#406882"
+                        />
+
+                    <Button
+                        android:id="@+id/buttonhiragana_i"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:layout_gravity="center"
+                        android:text="え"
+                        android:textColor="#406882"
+                        />
+
+                    <Button
+                        android:id="@+id/buttonhiragana_i"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:layout_gravity="center"
+                        android:text="お"
+                        android:textColor="#406882"
+                        />
+
+                </TableRow>
+
+                <TableRow
+                    android:background="#ffff">
+
+                    <Button
+                        android:id="@+id/buttonhiragana_a"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:layout_gravity="center"
+                        android:text="か"
+                        android:textColor="#406882"
+                        />
+
+                    <Button
+                        android:id="@+id/buttonhiragana_i"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:layout_gravity="center"
+                        android:text="き"
+                        android:textColor="#406882"
+                        />
+
+                    <Button
+                        android:id="@+id/buttonhiragana_i"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:layout_gravity="center"
+                        android:text="く"
+                        android:textColor="#406882"
+                        />
+
+                    <Button
+                        android:id="@+id/buttonhiragana_i"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:layout_gravity="center"
+                        android:text="け"
+                        android:textColor="#406882"
+                        />
+
+                    <Button
+                        android:id="@+id/buttonhiragana_i"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:layout_gravity="center"
+                        android:text="こ"
+                        android:textColor="#406882"
+                        />
+
+                </TableRow>
+
+                <TableRow
+                    android:background="#ffff">
+
+                    <Button
+                        android:id="@+id/buttonhiragana_a"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:layout_gravity="center"
+                        android:text="さ"
+                        android:textColor="#406882"
+                        />
+
+                    <Button
+                        android:id="@+id/buttonhiragana_i"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:layout_gravity="center"
+                        android:text="し"
+                        android:textColor="#406882"
+                        />
+
+                    <Button
+                        android:id="@+id/buttonhiragana_i"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:layout_gravity="center"
+                        android:text="す"
+                        android:textColor="#406882"
+                        />
+
+                    <Button
+                        android:id="@+id/buttonhiragana_i"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:layout_gravity="center"
+                        android:text="せ"
+                        android:textColor="#406882"
+                        />
+
+                    <Button
+                        android:id="@+id/buttonhiragana_i"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:layout_gravity="center"
+                        android:text="そ"
+                        android:textColor="#406882"
+                        />
+
+                </TableRow>
+
+                <TableRow
+                    android:background="#ffff">
+
+                    <Button
+                        android:id="@+id/buttonhiragana_a"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:layout_gravity="center"
+                        android:text="た"
+                        android:textColor="#406882"
+                        />
+
+                    <Button
+                        android:id="@+id/buttonhiragana_i"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:layout_gravity="center"
+                        android:text="ち"
+                        android:textColor="#406882"
+                        />
+
+                    <Button
+                        android:id="@+id/buttonhiragana_i"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:layout_gravity="center"
+                        android:text="つ"
+                        android:textColor="#406882"
+                        />
+
+                    <Button
+                        android:id="@+id/buttonhiragana_i"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:layout_gravity="center"
+                        android:text="て"
+                        android:textColor="#406882"
+                        />
+
+                    <Button
+                        android:id="@+id/buttonhiragana_i"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:layout_gravity="center"
+                        android:text="と"
+                        android:textColor="#406882"
+                        />
+
+                </TableRow>
+
+                <TableRow
+                    android:background="#ffff">
+
+                    <Button
+                        android:id="@+id/buttonhiragana_a"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:layout_gravity="center"
+                        android:text="な"
+                        android:textColor="#406882"
+                        />
+
+                    <Button
+                        android:id="@+id/buttonhiragana_i"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:layout_gravity="center"
+                        android:text="に"
+                        android:textColor="#406882"
+                        />
+
+                    <Button
+                        android:id="@+id/buttonhiragana_i"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:layout_gravity="center"
+                        android:text="ぬ"
+                        android:textColor="#406882"
+                        />
+
+                    <Button
+                        android:id="@+id/buttonhiragana_i"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:layout_gravity="center"
+                        android:text="ね"
+                        android:textColor="#406882"
+                        />
+
+                    <Button
+                        android:id="@+id/buttonhiragana_i"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:layout_gravity="center"
+                        android:text="の"
+                        android:textColor="#406882"
+                        />
+
+                </TableRow>
+
+                <TableRow
+                    android:background="#ffff">
+
+                    <Button
+                        android:id="@+id/buttonhiragana_a"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:layout_gravity="center"
+                        android:text="は"
+                        android:textColor="#406882"
+                        />
+
+                    <Button
+                        android:id="@+id/buttonhiragana_i"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:layout_gravity="center"
+                        android:text="ひ"
+                        android:textColor="#406882"
+                        />
+
+                    <Button
+                        android:id="@+id/buttonhiragana_i"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:layout_gravity="center"
+                        android:text="ふ"
+                        android:textColor="#406882"
+                        />
+
+                    <Button
+                        android:id="@+id/buttonhiragana_i"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:layout_gravity="center"
+                        android:text="へ"
+                        android:textColor="#406882"
+                        />
+
+                    <Button
+                        android:id="@+id/buttonhiragana_i"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:layout_gravity="center"
+                        android:text="ほ"
+                        android:textColor="#406882"
+                        />
+
+                </TableRow>
+
+                <TableRow
+                    android:background="#ffff">
+
+                    <Button
+                        android:id="@+id/buttonhiragana_a"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:layout_gravity="center"
+                        android:text="ま"
+                        android:textColor="#406882"
+                        />
+
+                    <Button
+                        android:id="@+id/buttonhiragana_i"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:layout_gravity="center"
+                        android:text="み"
+                        android:textColor="#406882"
+                        />
+
+                    <Button
+                        android:id="@+id/buttonhiragana_i"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:layout_gravity="center"
+                        android:text="む"
+                        android:textColor="#406882"
+                        />
+
+                    <Button
+                        android:id="@+id/buttonhiragana_i"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:layout_gravity="center"
+                        android:text="め"
+                        android:textColor="#406882"
+                        />
+
+                    <Button
+                        android:id="@+id/buttonhiragana_i"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:layout_gravity="center"
+                        android:text="も"
+                        android:textColor="#406882"
+                        />
+
+                </TableRow>
+
+                <TableRow
+                    android:background="#ffff">
+
+                    <Button
+                        android:id="@+id/buttonhiragana_a"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:layout_gravity="center"
+                        android:text="や"
+                        android:textColor="#406882"
+                        />
+
+                    <Button
+                        android:id="@+id/buttonhiragana_i"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:layout_gravity="center"
+                        android:text=""
+                        android:textColor="#406882"
+                        android:visibility="invisible"
+                        />
+
+                    <Button
+                        android:id="@+id/buttonhiragana_i"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:layout_gravity="center"
+                        android:text="ゆ"
+                        android:textColor="#406882"
+                        />
+
+                    <Button
+                        android:id="@+id/buttonhiragana_i"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:layout_gravity="center"
+                        android:text=""
+                        android:textColor="#406882"
+                        android:visibility="invisible"
+                        />
+
+                    <Button
+                        android:id="@+id/buttonhiragana_i"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:layout_gravity="center"
+                        android:text="よ"
+                        android:textColor="#406882"
+                        />
+
+                </TableRow>
+
+                <TableRow
+                    android:background="#ffff">
+
+                    <Button
+                        android:id="@+id/buttonhiragana_a"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:layout_gravity="center"
+                        android:text="ら"
+                        android:textColor="#406882"
+                        />
+
+                    <Button
+                        android:id="@+id/buttonhiragana_i"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:layout_gravity="center"
+                        android:text="り"
+                        android:textColor="#406882"
+                        />
+
+                    <Button
+                        android:id="@+id/buttonhiragana_i"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:layout_gravity="center"
+                        android:text="る"
+                        android:textColor="#406882"
+                        />
+
+                    <Button
+                        android:id="@+id/buttonhiragana_i"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:layout_gravity="center"
+                        android:text="れ"
+                        android:textColor="#406882"
+                        />
+
+                    <Button
+                        android:id="@+id/buttonhiragana_i"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:layout_gravity="center"
+                        android:text="ろ"
+                        android:textColor="#406882"
+                        />
+
+                </TableRow>
+
+                <TableRow
+                    android:background="#ffff">
+
+                    <Button
+                        android:id="@+id/buttonhiragana_a"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:layout_gravity="center"
+                        android:text="わ"
+                        android:textColor="#406882"
+                        />
+
+                    <Button
+                        android:id="@+id/buttonhiragana_i"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:layout_gravity="center"
+                        android:text=""
+                        android:textColor="#406882"
+                        android:visibility="invisible"
+                        />
+
+                    <Button
+                        android:id="@+id/buttonhiragana_i"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:layout_gravity="center"
+                        android:text=""
+                        android:textColor="#406882"
+                        android:visibility="invisible"
+                        />
+
+                    <Button
+                        android:id="@+id/buttonhiragana_i"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:layout_gravity="center"
+                        android:text=""
+                        android:textColor="#406882"
+                        android:visibility="invisible"
+                        />
+
+                    <Button
+                        android:id="@+id/buttonhiragana_i"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:layout_gravity="center"
+                        android:text="を"
+                        android:textColor="#406882"
+                        />
+
+                </TableRow>
+
+                <TableRow
+                    android:background="#ffff">
+
+                    <Button
+                        android:id="@+id/buttonhiragana_a"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:layout_gravity="center"
+                        android:text=""
+                        android:textColor="#406882"
+                        android:visibility="invisible"
+                        />
+
+                    <Button
+                        android:id="@+id/buttonhiragana_i"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:layout_gravity="center"
+                        android:text=""
+                        android:textColor="#406882"
+                        android:visibility="invisible"
+                        />
+
+                    <Button
+                        android:id="@+id/buttonhiragana_i"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:layout_gravity="center"
+                        android:text=""
+                        android:textColor="#406882"
+                        android:visibility="invisible"
+                        />
+
+                    <Button
+                        android:id="@+id/buttonhiragana_i"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:layout_gravity="center"
+                        android:text=""
+                        android:textColor="#406882"
+                        android:visibility="invisible"
+                        />
+
+                    <Button
+                        android:id="@+id/buttonhiragana_i"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:layout_gravity="center"
+                        android:text="ん"
+                        android:textColor="#406882"
+                        />
+
+                </TableRow>
+
+
+            </TableLayout>
+        </LinearLayout>
+
+
+
+
+
+
+        </LinearLayout>
+    </ScrollView>
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
