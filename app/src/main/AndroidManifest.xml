@@ -10,6 +10,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Nihongomobile">
         <activity
+            android:name=".halaman_soal"
+            android:exported="false" />
+        <activity
+            android:name=".halaman_audio"
+            android:exported="false" />
+        <activity
             android:name=".katakana"
             android:exported="false" />
         <activity
