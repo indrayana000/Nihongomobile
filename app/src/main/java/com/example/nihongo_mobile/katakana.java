@@ -10,5 +10,6 @@ public class katakana extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_katakana);
+        getSupportActionBar().hide();
     }
 }

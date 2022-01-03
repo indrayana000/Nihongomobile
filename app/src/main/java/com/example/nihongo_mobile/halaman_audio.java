@@ -10,5 +10,6 @@ public class halaman_audio extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_halaman_audio);
+        getSupportActionBar().hide();
     }
 }

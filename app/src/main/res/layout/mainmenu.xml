@@ -126,7 +126,7 @@
                 app:srcCompat="@drawable/latihan_soal" />
 
             <Button
-                android:id="@+id/button4"
+                android:id="@+id/button_soal"
                 android:layout_width="150dp"
                 android:layout_height="50dp"
                 android:layout_gravity="center"
