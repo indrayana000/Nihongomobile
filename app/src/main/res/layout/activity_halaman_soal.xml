@@ -79,7 +79,7 @@
             <TableRow android:background="#ffff">
 
                 <Button
-                    android:id="@+id/buttonkajawaban_1"
+                    android:id="@+id/buttonkosong_1"
                     android:layout_width="50dp"
                     android:layout_height="50dp"
                     android:layout_gravity="center"
@@ -88,7 +88,7 @@
                     android:visibility="invisible"/>
 
                 <Button
-                    android:id="@+id/buttonjawaban_2"
+                    android:id="@+id/buttonjawaban_1a"
                     android:layout_width="50dp"
                     android:layout_height="50dp"
                     android:layout_gravity="center"
@@ -96,7 +96,7 @@
                     android:textColor="#406882" />
 
                 <Button
-                    android:id="@+id/buttonkajawaban_1"
+                    android:id="@+id/buttonkosong_2"
                     android:layout_width="50dp"
                     android:layout_height="50dp"
                     android:layout_gravity="center"
@@ -105,14 +105,14 @@
                     android:visibility="invisible"/>
 
                 <Button
-                    android:id="@+id/buttonjawaban_2"
+                    android:id="@+id/buttonjawaban_1b"
                     android:layout_width="50dp"
                     android:layout_height="50dp"
                     android:layout_gravity="center"
                     android:text="B"
                     android:textColor="#406882" />
                 <Button
-                    android:id="@+id/buttonjawaban_2"
+                    android:id="@+id/buttonkosong_3"
                     android:layout_width="50dp"
                     android:layout_height="50dp"
                     android:layout_gravity="center"
@@ -129,7 +129,7 @@
                 <TableRow android:background="#ffff">
 
                     <Button
-                        android:id="@+id/buttonkajawaban_1"
+                        android:id="@+id/buttonkosong_4"
                         android:layout_width="50dp"
                         android:layout_height="50dp"
                         android:layout_gravity="center"
@@ -138,7 +138,7 @@
                         android:visibility="invisible"/>
 
                     <Button
-                        android:id="@+id/buttonjawaban_2"
+                        android:id="@+id/buttonjawaban_1c"
                         android:layout_width="50dp"
                         android:layout_height="50dp"
                         android:layout_gravity="center"
@@ -146,7 +146,7 @@
                         android:textColor="#406882" />
 
                     <Button
-                        android:id="@+id/buttonkajawaban_1"
+                        android:id="@+id/buttonkosong_5"
                         android:layout_width="50dp"
                         android:layout_height="50dp"
                         android:layout_gravity="center"
@@ -155,14 +155,14 @@
                         android:visibility="invisible"/>
 
                     <Button
-                        android:id="@+id/buttonjawaban_2"
+                        android:id="@+id/buttonjawaban_1d"
                         android:layout_width="50dp"
                         android:layout_height="50dp"
                         android:layout_gravity="center"
                         android:text="D"
                         android:textColor="#406882" />
                     <Button
-                        android:id="@+id/buttonjawaban_2"
+                        android:id="@+id/buttonkosong_6"
                         android:layout_width="50dp"
                         android:layout_height="50dp"
                         android:layout_gravity="center"
