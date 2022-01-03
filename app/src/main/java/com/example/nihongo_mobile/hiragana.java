@@ -10,5 +10,7 @@ public class hiragana extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_hiragana);
+
+        getSupportActionBar().hide();
     }
 }

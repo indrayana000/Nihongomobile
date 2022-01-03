@@ -18,7 +18,7 @@ public class MainActivity extends AppCompatActivity {
         new Handler().postDelayed(new Runnable() {
             @Override
             public void run() {
-                Intent akhirSplash = new Intent(MainActivity.this, menu.class);
+                Intent akhirSplash = new Intent(MainActivity.this, hiragana.class);
                 startActivity(akhirSplash);
                 finish();
             }
