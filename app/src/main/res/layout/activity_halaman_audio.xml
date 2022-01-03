@@ -48,7 +48,7 @@
                 android:layout_height="150dp" />
 
             <TextView
-                android:id="@+id/textView2"
+                android:id="@+id/textViewHurufJepang"
                 android:layout_width="250dp"
                 android:layout_height="150dp"
                 android:layout_gravity="center"
@@ -62,7 +62,7 @@
                 android:layout_height="30dp" />
 
             <TextView
-                android:id="@+id/textView2"
+                android:id="@+id/textViewRomaji"
                 android:layout_width="100dp"
                 android:layout_height="100dp"
                 android:layout_gravity="center"
