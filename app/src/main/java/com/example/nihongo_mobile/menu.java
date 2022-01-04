@@ -49,5 +49,13 @@ public class menu extends AppCompatActivity {
                 startActivity(intent_budaya);
             }
         });
+        btnPercakapan.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public  void onClick(View view) {
+                Intent intent_percakapan = new Intent(menu.this, halaman_percakapan.class);
+                startActivity(intent_percakapan);
+            }
+        });
+
     }
 }
