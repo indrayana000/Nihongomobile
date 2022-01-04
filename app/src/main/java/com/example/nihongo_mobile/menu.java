@@ -31,7 +31,7 @@ public class menu extends AppCompatActivity {
         btnKatakana.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent_katakana = new Intent(menu.this, katakana.class);
+                Intent intent_katakana = new Intent(menu.this, splash_katakana.class);
                 startActivity(intent_katakana);
             }
         });

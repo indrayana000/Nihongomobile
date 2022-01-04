@@ -10,25 +10,27 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Nihongomobile">
         <activity
+            android:name=".splash_katakana"
+            android:exported="true" />
+        <activity
             android:name=".halaman_soal"
             android:exported="false"
-            android:screenOrientation="portrait"/>
+            android:screenOrientation="portrait" />
         <activity
             android:name=".halaman_audio"
             android:exported="false" />
         <activity
             android:name=".katakana"
             android:exported="false"
-            android:screenOrientation="portrait"/>
+            android:screenOrientation="portrait" />
         <activity
             android:name=".hiragana"
             android:exported="false"
-            android:screenOrientation="portrait"
-            />
+            android:screenOrientation="portrait" />
         <activity
             android:name=".menu"
             android:exported="false"
-            android:screenOrientation="portrait"/>
+            android:screenOrientation="portrait" />
         <activity
             android:name=".MainActivity"
             android:exported="true"
