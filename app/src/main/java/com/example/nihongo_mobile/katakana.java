@@ -85,6 +85,7 @@ public class katakana extends AppCompatActivity {
             pindahBaca.putExtra("huruf", huruf);
             pindahBaca.putExtra("baca", baca);
             pindahBaca.putExtra("voiceId", voiceId);
+            pindahBaca.putExtra("tipe", "Katakana");
             startActivity(pindahBaca);
         }catch(Exception e){
 

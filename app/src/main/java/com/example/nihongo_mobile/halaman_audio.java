@@ -6,6 +6,7 @@ import android.media.MediaPlayer;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -13,8 +14,9 @@ import java.util.ArrayList;
 
 public class halaman_audio extends AppCompatActivity {
     Button btnAudio;
-    String huruf, baca, idSuara;
+    String huruf, baca, idSuara, titleText;
     TextView tvHuruf, tvBaca;
+    ImageView imgTitle;
     int voiceId;
     MediaPlayer mp;
     ArrayList<Integer> voices;
@@ -26,10 +28,14 @@ public class halaman_audio extends AppCompatActivity {
         btnAudio = findViewById(R.id.button_play);
         tvHuruf = findViewById(R.id.textViewHurufJepang);
         tvBaca = findViewById(R.id.textViewRomaji);
+        imgTitle = findViewById(R.id.imgTitle);
+
+        titleText = getIntent().getExtras().getString("tipe").toString();
         idSuara = getIntent().getExtras().getString("voiceId").toString();
         voiceId = Integer.valueOf(idSuara);
         voices = new ArrayList<>();
         declareAudio();
+        changeTitle(titleText);
         huruf = getIntent().getExtras().getString("huruf").toString();
         baca = getIntent().getExtras().getString("baca").toString();
 
@@ -56,6 +62,13 @@ public class halaman_audio extends AppCompatActivity {
                 }
             }
         });
+    }
+    protected void changeTitle(String insertTitle){
+        if(insertTitle.equals("Katakana")){
+            imgTitle.setImageResource(R.drawable.katakana);
+        }else{
+            imgTitle.setImageResource(R.drawable.hiragana);
+        }
     }
     protected void declareAudio(){
         try {
