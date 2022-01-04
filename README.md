@@ -1,3 +1,3 @@
 # Nihongomobile
  
-Aplikasi pembelajaran Hiragana dan Katakana
+Aplikasi pembelajaran Hiragana dan Katakana berbasis Android
