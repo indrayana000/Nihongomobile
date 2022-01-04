@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".budaya_jepang">
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="@+id/scrollView2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/imgTitle"
+            android:layout_width="174dp"
+            android:layout_height="24dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="30dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/budaya_jepang_menu"
+            />
+    </LinearLayout>
+
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout2">
+        <!-- Here you put the rest of your current view-->
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical">
+            <!-- bla bla bla-->
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="30dp" />
+
+            <TextView
+                android:id="@+id/textViewHurufJepang"
+                android:layout_width="300dp"
+                android:layout_height="80dp"
+                android:layout_gravity="center"
+                android:text="Samurai"
+                android:textSize="50dp"
+                android:textAlignment="center"
+                />
+
+
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/samurai_jepang" />
+
+            <TextView
+                android:id="@+id/textViewRomaji"
+                android:layout_width="330dp"
+                android:layout_height="2000dp"
+                android:layout_gravity="center"
+                android:text=" Jepang Abad Pertengahan membangun salah satu budaya prajurit terkaya dan terkenal sepanjang masa yaitu Samurai. Ideologinya dimulai sekitar abad ke-9 dan selama beberapa ratus tahun berkembang menjadi sebuah kodeks (naskah) hidup yang penting. Ideologi ini lalu semakin lama semakin dipengaruhi oleh aliran Zen Budha.
+                \n \n Samurai menjalani gaya hidup yang disebut dengan “bushido” atau “jalan seorang prajurit”. Semua hal terikat pada kodeks ini. Kodeks ini mengatur bagaimana mereka hidup, bekerja, bergerak dan banyak lagi. “Bushido” menuntut banyak aspek dari para prajurit seperti pengorbanan diri, kesetiaan mutlak, kekuatan, keterampilan bersenjata yang sangat unggul dan banyak lagi.
+                \n \n Samurai kebanyakan bekerja untuk tuan mereka dan menjadi peserta dalam pertempuran seru dan berdarah antar klan. Namun, selain pertempuran, keamanan penduduk setempat dan pertahanan juga merupakan hal yang sangat penting bagi seorang Samurai.
+                \n \n Kehidupan seorang Samurai harus didedikasikan untuk tujuan menjadi Samurai sejak awal. Sejak mereka masih kecil, mereka belajar bagaimana bergerak dan bertindak dengan benar. Hal ini bisa dianggap seperti sebuah ritual. Misalnya, belajar cara duduk melibatkan urutan gerakan yang khusus. Lutut kiri ditekuk terlebih dulu, sehingga masih memungkinkan untuk menarik pedang jika dibutuhkan.
+                \n \n Pertarungannyapun juga tidak sekacau balau seperti di Eropa, namun biasanya satu lawan satu. Samurai mencari musuh yang setara dengan keterampilan dan kehormatan mereka. Yang kalah ditinggalkan. Kemenangan dari pertarungan ini akan menambah kehormatan pemenangnya dan meningkatkan peringkat serta reputasinya.
+                \n \n Meskipun “bushido” adalah kode yang harus dipatuhi, ada beberapa keterampilan lain yang juga perlu dikuasai. Menggunakan berbagai jenis senjata, misalnya, atau memiliki beberapa sikap baik seperti tenang, santun, berperilaku jujur dan banyak lagi. Setia kepada tuannya juga berarti harus siap mati kapan saja. Ritual terakhir untuk Samurai adalah “Seppuku” atau bunuh diri secara terhormat. Samurai harus berkomitmen untuk melakukan hal ini kapanpun mereka mundur dari pertempuran atau ketika mereka melanggar hukum Samurai.
+                \n \n Seperti yang bisa kita lihat, Samurai merupakan prajurit yang unik dan istimewa selama beberapa ratus tahun. Namun, kekuasaan mereka menurun pada abad ke-19 dan berakhir dengan konflik terakhir pada tahun 1877.        "
+                android:textSize="20dp"
+                />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="150dp" />
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

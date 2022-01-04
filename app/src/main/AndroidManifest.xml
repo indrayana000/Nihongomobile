@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Nihongomobile">
         <activity
+            android:name=".budaya_jepang"
+            android:exported="false" />
+        <activity
             android:name=".splash_katakana"
             android:exported="true" />
         <activity

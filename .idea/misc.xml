@@ -3,11 +3,7 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/Users/Fariz/AndroidStudioProjects/Nihongomobile/app/src/main/res/layout/activity_halaman_audio.xml" value="0.20416666666666666" />
-        <entry key="..\:/Users/Fariz/AndroidStudioProjects/Nihongomobile/app/src/main/res/layout/activity_katakana.xml" value="0.67" />
-        <entry key="..\:/Users/Fariz/AndroidStudioProjects/Nihongomobile/app/src/main/res/layout/activity_main.xml" value="0.20416666666666666" />
-        <entry key="..\:/Users/Fariz/AndroidStudioProjects/Nihongomobile/app/src/main/res/layout/activity_splash_katakana.xml" value="0.20416666666666666" />
-        <entry key="..\:/Users/Fariz/AndroidStudioProjects/Nihongomobile/app/src/main/res/layout/mainmenu.xml" value="0.20416666666666666" />
+        <entry key="app/src/main/res/layout/activity_budaya_jepang.xml" value="0.15" />
         <entry key="app/src/main/res/layout/activity_halaman_audio.xml" value="0.18" />
         <entry key="app/src/main/res/layout/activity_halaman_soal.xml" value="0.2" />
         <entry key="app/src/main/res/layout/activity_hiragana.xml" value="0.22" />

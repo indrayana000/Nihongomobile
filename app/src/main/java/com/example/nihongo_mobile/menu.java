@@ -42,5 +42,12 @@ public class menu extends AppCompatActivity {
                 startActivity(intent_hiragana);
             }
         });
+        btnBudaya.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent_budaya = new Intent(menu.this, budaya_jepang.class);
+                startActivity(intent_budaya);
+            }
+        });
     }
 }
