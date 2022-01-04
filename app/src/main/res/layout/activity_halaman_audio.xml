@@ -76,7 +76,7 @@
                 android:layout_height="30dp" />
 
             <Button
-                android:id="@+id/button"
+                android:id="@+id/button_play"
                 android:layout_width="100dp"
                 android:layout_height="50dp"
                 android:layout_gravity="center"
