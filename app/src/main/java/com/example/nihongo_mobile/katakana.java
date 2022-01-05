@@ -18,7 +18,7 @@ public class katakana extends AppCompatActivity {
             btnMA, btnMI, btnMU, btnME, btnMO,
             btnYA, btnYU, btnYO,
             btnRA, btnRI, btnRU, btnRE, btnRO,
-            bntWA, btnWO, btnN,
+            btnWA, btnWO, btnN,
             btnGA, btnGI, btnGU, btnGE, btnGO,
             btnZA, btnZI, btnZU, btnZE, btnZO,
             btnDA, btnDI, btnDU, btnDE, btnDO,
@@ -128,6 +128,369 @@ public class katakana extends AppCompatActivity {
             }
         }));
 
+        btnSA.setOnClickListener((new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                setHuruf = "サ";
+                setBaca = "SA";
+                setVoiceID = "10";
+                pindahHalaman(setHuruf , setBaca, setVoiceID);
+            }
+        }));
+
+        btnSI.setOnClickListener((new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                setHuruf = "シ";
+                setBaca = "SI";
+                setVoiceID = "11";
+                pindahHalaman(setHuruf , setBaca, setVoiceID);
+            }
+        }));
+
+        btnSU.setOnClickListener((new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                setHuruf = "ス";
+                setBaca = "SU";
+                setVoiceID = "12";
+                pindahHalaman(setHuruf , setBaca, setVoiceID);
+            }
+        }));
+
+        btnSE.setOnClickListener((new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                setHuruf = "セ";
+                setBaca = "SE";
+                setVoiceID = "13";
+                pindahHalaman(setHuruf , setBaca, setVoiceID);
+            }
+        }));
+
+        btnSO.setOnClickListener((new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                setHuruf = "ソ";
+                setBaca = "SO";
+                setVoiceID = "14";
+                pindahHalaman(setHuruf , setBaca, setVoiceID);
+            }
+        }));
+
+        btnTA.setOnClickListener((new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                setHuruf = "タ";
+                setBaca = "TA";
+                setVoiceID = "15";
+                pindahHalaman(setHuruf , setBaca, setVoiceID);
+            }
+        }));
+
+        btnTI.setOnClickListener((new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                setHuruf = "チ";
+                setBaca = "CHI";
+                setVoiceID = "16";
+                pindahHalaman(setHuruf , setBaca, setVoiceID);
+            }
+        }));
+
+        btnTU.setOnClickListener((new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                setHuruf = "ツ";
+                setBaca = "TSU";
+                setVoiceID = "17";
+                pindahHalaman(setHuruf , setBaca, setVoiceID);
+            }
+        }));
+
+        btnTE.setOnClickListener((new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                setHuruf = "テ";
+                setBaca = "TE";
+                setVoiceID = "18";
+                pindahHalaman(setHuruf , setBaca, setVoiceID);
+            }
+        }));
+
+        btnTO.setOnClickListener((new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                setHuruf = "ト";
+                setBaca = "TO";
+                setVoiceID = "19";
+                pindahHalaman(setHuruf , setBaca, setVoiceID);
+            }
+        }));
+
+        btnNA.setOnClickListener((new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                setHuruf = "ナ";
+                setBaca = "NA";
+                setVoiceID = "20";
+                pindahHalaman(setHuruf , setBaca, setVoiceID);
+            }
+        }));
+
+        btnNI.setOnClickListener((new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                setHuruf = "ニ";
+                setBaca = "NI";
+                setVoiceID = "21";
+                pindahHalaman(setHuruf , setBaca, setVoiceID);
+            }
+        }));
+
+        btnNU.setOnClickListener((new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                setHuruf = "ヌ";
+                setBaca = "NU";
+                setVoiceID = "22";
+                pindahHalaman(setHuruf , setBaca, setVoiceID);
+            }
+        }));
+
+        btnNE.setOnClickListener((new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                setHuruf = "ネ";
+                setBaca = "NE";
+                setVoiceID = "23";
+                pindahHalaman(setHuruf , setBaca, setVoiceID);
+            }
+        }));
+
+        btnNO.setOnClickListener((new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                setHuruf = "ノ";
+                setBaca = "NO";
+                setVoiceID = "24";
+                pindahHalaman(setHuruf , setBaca, setVoiceID);
+            }
+        }));
+
+        btnHA.setOnClickListener((new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                setHuruf = "ハ";
+                setBaca = "HA";
+                setVoiceID = "25";
+                pindahHalaman(setHuruf , setBaca, setVoiceID);
+            }
+        }));
+
+        btnHI.setOnClickListener((new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                setHuruf = "ヒ";
+                setBaca = "HI";
+                setVoiceID = "26";
+                pindahHalaman(setHuruf , setBaca, setVoiceID);
+            }
+        }));
+
+        btnHU.setOnClickListener((new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                setHuruf = "フ";
+                setBaca = "FU";
+                setVoiceID = "27";
+                pindahHalaman(setHuruf , setBaca, setVoiceID);
+            }
+        }));
+
+        btnHE.setOnClickListener((new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                setHuruf = "ヘ";
+                setBaca = "HE";
+                setVoiceID = "28";
+                pindahHalaman(setHuruf , setBaca, setVoiceID);
+            }
+        }));
+
+        btnHO.setOnClickListener((new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                setHuruf = "ホ";
+                setBaca = "HO";
+                setVoiceID = "29";
+                pindahHalaman(setHuruf , setBaca, setVoiceID);
+            }
+        }));
+
+        btnMA.setOnClickListener((new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                setHuruf = "マ";
+                setBaca = "MA";
+                setVoiceID = "30";
+                pindahHalaman(setHuruf , setBaca, setVoiceID);
+            }
+        }));
+
+        btnMI.setOnClickListener((new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                setHuruf = "ミ";
+                setBaca = "MI";
+                setVoiceID = "31";
+                pindahHalaman(setHuruf , setBaca, setVoiceID);
+            }
+        }));
+
+        btnMU.setOnClickListener((new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                setHuruf = "ム";
+                setBaca = "MU";
+                setVoiceID = "32";
+                pindahHalaman(setHuruf , setBaca, setVoiceID);
+            }
+        }));
+
+        btnME.setOnClickListener((new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                setHuruf = "メ";
+                setBaca = "ME";
+                setVoiceID = "33";
+                pindahHalaman(setHuruf , setBaca, setVoiceID);
+            }
+        }));
+
+        btnMO.setOnClickListener((new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                setHuruf = "モ";
+                setBaca = "MO";
+                setVoiceID = "34";
+                pindahHalaman(setHuruf , setBaca, setVoiceID);
+            }
+        }));
+
+        /*
+        btnYA.setOnClickListener((new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                setHuruf = "ヤ";
+                setBaca = "YA";
+                setVoiceID = "35";
+                pindahHalaman(setHuruf , setBaca, setVoiceID);
+            }
+        }));
+
+        btnYU.setOnClickListener((new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                setHuruf = "ユ";
+                setBaca = "YU";
+                setVoiceID = "36";
+                pindahHalaman(setHuruf , setBaca, setVoiceID);
+            }
+        }));
+
+        btnYO.setOnClickListener((new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                setHuruf = "ヨ";
+                setBaca = "YO";
+                setVoiceID = "37";
+                pindahHalaman(setHuruf , setBaca, setVoiceID);
+            }
+        }));
+
+         */
+
+        btnRA.setOnClickListener((new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                setHuruf = "ラ";
+                setBaca = "RA";
+                setVoiceID = "38";
+                pindahHalaman(setHuruf , setBaca, setVoiceID);
+            }
+        }));
+
+        btnRI.setOnClickListener((new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                setHuruf = "リ";
+                setBaca = "RI";
+                setVoiceID = "39";
+                pindahHalaman(setHuruf , setBaca, setVoiceID);
+            }
+        }));
+
+        btnRU.setOnClickListener((new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                setHuruf = "ル";
+                setBaca = "RU";
+                setVoiceID = "40";
+                pindahHalaman(setHuruf , setBaca, setVoiceID);
+            }
+        }));
+
+        btnRE.setOnClickListener((new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                setHuruf = "レ";
+                setBaca = "RE";
+                setVoiceID = "41";
+                pindahHalaman(setHuruf , setBaca, setVoiceID);
+            }
+        }));
+
+        btnRO.setOnClickListener((new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                setHuruf = "ロ";
+                setBaca = "RO";
+                setVoiceID = "42";
+                pindahHalaman(setHuruf , setBaca, setVoiceID);
+            }
+        }));
+
+        btnWA.setOnClickListener((new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                setHuruf = "ワ";
+                setBaca = "WA";
+                setVoiceID = "43";
+                pindahHalaman(setHuruf , setBaca, setVoiceID);
+            }
+        }));
+
+        btnWO.setOnClickListener((new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                setHuruf = "ヲ";
+                setBaca = "WO";
+                setVoiceID = "44";
+                pindahHalaman(setHuruf , setBaca, setVoiceID);
+            }
+        }));
+
+        btnN.setOnClickListener((new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                setHuruf = "ン";
+                setBaca = "N";
+                setVoiceID = "45";
+                pindahHalaman(setHuruf , setBaca, setVoiceID);
+            }
+        }));
+
     }
     protected void pindahHalaman(String huruf, String baca, String voiceId){
         try {
@@ -183,5 +546,8 @@ public class katakana extends AppCompatActivity {
         btnRU = findViewById(R.id.buttonkatakana_ru);
         btnRE = findViewById(R.id.buttonkatakana_re);
         btnRO = findViewById(R.id.buttonkatakana_ro);
+        btnWA = findViewById(R.id.buttonkatakana_wo);
+        btnWO = findViewById(R.id.buttonkatakana_wo);
+        btnN = findViewById(R.id.buttonkatakana_n);
     }
 }
