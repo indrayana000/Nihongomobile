@@ -82,6 +82,7 @@ public class halaman_audio extends AppCompatActivity {
             voices.add(7, R.raw.ku);
             voices.add(8, R.raw.ke);
             voices.add(9, R.raw.ko);
+
         }catch(Exception e){
             Toast.makeText(getApplicationContext(), "Error + " + e, Toast.LENGTH_SHORT).show();
         }

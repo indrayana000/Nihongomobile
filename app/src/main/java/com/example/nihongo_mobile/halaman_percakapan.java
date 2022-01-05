@@ -11,5 +11,7 @@ public class halaman_percakapan extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_halaman_percakapan);
         getSupportActionBar().hide();
+
+
     }
 }

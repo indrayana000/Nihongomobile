@@ -87,7 +87,7 @@
                     android:textColor="#406882" />
 
                 <Button
-                    android:id="@+id/buttonhiragana_0"
+                    android:id="@+id/buttonhiragana_o"
                     android:layout_width="50dp"
                     android:layout_height="50dp"
                     android:layout_gravity="center"

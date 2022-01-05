@@ -78,6 +78,56 @@ public class katakana extends AppCompatActivity {
             }
         });
 
+        btnKA.setOnClickListener((new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                setHuruf = "カ";
+                setBaca = "KA";
+                setVoiceID = "5";
+                pindahHalaman(setHuruf , setBaca, setVoiceID);
+            }
+        }));
+
+        btnKI.setOnClickListener((new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                setHuruf = "キ";
+                setBaca = "KI";
+                setVoiceID = "6";
+                pindahHalaman(setHuruf , setBaca, setVoiceID);
+            }
+        }));
+
+        btnKU.setOnClickListener((new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                setHuruf = "ク";
+                setBaca = "KU";
+                setVoiceID = "7";
+                pindahHalaman(setHuruf , setBaca, setVoiceID);
+            }
+        }));
+
+        btnKE.setOnClickListener((new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                setHuruf = "ケ";
+                setBaca = "KE";
+                setVoiceID = "8";
+                pindahHalaman(setHuruf , setBaca, setVoiceID);
+            }
+        }));
+
+        btnKO.setOnClickListener((new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                setHuruf = "コ";
+                setBaca = "KO";
+                setVoiceID = "9";
+                pindahHalaman(setHuruf , setBaca, setVoiceID);
+            }
+        }));
+
     }
     protected void pindahHalaman(String huruf, String baca, String voiceId){
         try {
