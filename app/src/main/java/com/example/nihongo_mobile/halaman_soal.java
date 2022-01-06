@@ -120,32 +120,27 @@ public class halaman_soal extends AppCompatActivity {
             if (jawaban.equals(kunci)){
                 nilai++;
             }
-            //Toast.makeText(getApplicationContext(), "Skor = " + String.valueOf(nilai), Toast.LENGTH_SHORT).show();
-            // 1. Instantiate an <code><a href="/reference/android/app/AlertDialog.Builder.html">AlertDialog.Builder</a></code> with its constructor
-            AlertDialog.Builder builder = new AlertDialog.Builder(this);
 
-// 2. Chain together various setter methods to set the dialog characteristics
+            AlertDialog.Builder builder = new AlertDialog.Builder(this);
             builder.setMessage(String.valueOf(nilai) + " dari 5 jawaban benar!")
                     .setTitle("Skor")
                     .setPositiveButton("Tutup", new DialogInterface.OnClickListener() {
                 public void onClick(DialogInterface dialog, int id) {
-                    // User clicked OK button
                     finish();
                 }
             });
 
-// 3. Get the <code><a href="/reference/android/app/AlertDialog.html">AlertDialog</a></code> from <code><a href="/reference/android/app/AlertDialog.Builder.html#create()">create()</a></code>
             AlertDialog dialog = builder.create();
             dialog.setOnShowListener(new DialogInterface.OnShowListener() {
                 @Override
                 public void onShow(DialogInterface dialogInterface) {
                     dialog.getButton(AlertDialog.BUTTON_POSITIVE).setTextColor(getResources().getColor(R.color.primaryorange));
-
                 }
             });
             dialog.show();
         }
     }
+
     protected void declareAudio(){
         try {
             voices.add(0, R.raw.nu);
@@ -161,6 +156,7 @@ public class halaman_soal extends AppCompatActivity {
             Toast.makeText(getApplicationContext(), "Error + " + e, Toast.LENGTH_SHORT).show();
         }
     }
+
     // Retrieve data soal dari database
     public void getSoal(int nomorID){
         try {

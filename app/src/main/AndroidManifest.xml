@@ -11,23 +11,28 @@
         android:theme="@style/Theme.Nihongomobile">
         <activity
             android:name=".splash_hiragana"
-            android:exported="true" />
+            android:exported="true"
+            android:screenOrientation="portrait"/>
         <activity
             android:name=".halaman_percakapan"
-            android:exported="false" />
+            android:exported="false"
+            android:screenOrientation="portrait"/>
         <activity
             android:name=".budaya_jepang"
-            android:exported="false" />
+            android:exported="false"
+            android:screenOrientation="portrait"/>
         <activity
             android:name=".splash_katakana"
-            android:exported="true" />
+            android:exported="true"
+            android:screenOrientation="portrait"/>
         <activity
             android:name=".halaman_soal"
             android:exported="false"
             android:screenOrientation="portrait" />
         <activity
             android:name=".halaman_audio"
-            android:exported="false" />
+            android:exported="false"
+            android:screenOrientation="portrait"/>
         <activity
             android:name=".katakana"
             android:exported="false"
