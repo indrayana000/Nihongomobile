@@ -527,7 +527,7 @@ public class katakana extends AppCompatActivity {
             public void onClick(View view) {
                 setHuruf = "ゲ";
                 setBaca = "GE";
-                setVoiceID = "48";
+                setVoiceID = "49";
                 pindahHalaman(setHuruf , setBaca, setVoiceID);
             }
         }));
@@ -558,7 +558,7 @@ public class katakana extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 setHuruf = "ジ";
-                setBaca = "ZI";
+                setBaca = "JI";
                 setVoiceID = "52";
                 pindahHalaman(setHuruf , setBaca, setVoiceID);
             }
@@ -610,7 +610,7 @@ public class katakana extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 setHuruf = "ヂ";
-                setBaca = "DI";
+                setBaca = "DJI";
                 setVoiceID = "57";
                 pindahHalaman(setHuruf , setBaca, setVoiceID);
             }
@@ -620,7 +620,7 @@ public class katakana extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 setHuruf = "ヅ";
-                setBaca = "DU";
+                setBaca = "DZU";
                 setVoiceID = "58";
                 pindahHalaman(setHuruf , setBaca, setVoiceID);
             }
@@ -805,7 +805,7 @@ public class katakana extends AppCompatActivity {
         btnRU = findViewById(R.id.buttonkatakana_ru);
         btnRE = findViewById(R.id.buttonkatakana_re);
         btnRO = findViewById(R.id.buttonkatakana_ro);
-        btnWA = findViewById(R.id.buttonkatakana_wo);
+        btnWA = findViewById(R.id.buttonkatakana_wa);
         btnWO = findViewById(R.id.buttonkatakana_wo);
         btnN = findViewById(R.id.buttonkatakana_n);
         btnGA = findViewById(R.id.buttonkatakana_ga);

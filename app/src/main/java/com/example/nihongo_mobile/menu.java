@@ -24,7 +24,7 @@ public class menu extends AppCompatActivity {
         btnHiragana.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent_hiragana = new Intent(menu.this, hiragana.class);
+                Intent intent_hiragana = new Intent(menu.this, splash_hiragana.class);
                 startActivity(intent_hiragana);
             }
         });

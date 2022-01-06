@@ -7,7 +7,8 @@ import android.os.Bundle;
 import android.os.Handler;
 import android.widget.TextView;
 
-public class splash_katakana extends AppCompatActivity {
+public class splash_hiragana extends AppCompatActivity {
+
     TextView tvjp, tvromaj;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -16,12 +17,12 @@ public class splash_katakana extends AppCompatActivity {
         getSupportActionBar().hide();
         tvjp = findViewById(R.id.tvJp);
         tvromaj = findViewById(R.id.tvromaj);
-        tvjp.setText("カタカナ");
-        tvromaj.setText("Katakana");
+        tvjp.setText("ひらがな");
+        tvromaj.setText("Hiragana");
         new Handler().postDelayed(new Runnable() {
             @Override
             public void run() {
-                Intent akhirSplash = new Intent(splash_katakana.this, katakana.class);
+                Intent akhirSplash = new Intent(splash_hiragana.this, hiragana.class);
                 startActivity(akhirSplash);
                 finish();
             }

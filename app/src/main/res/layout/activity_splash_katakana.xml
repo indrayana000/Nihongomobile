@@ -7,7 +7,7 @@
     tools:context=".splash_katakana">
 
     <TextView
-        android:id="@+id/textView2"
+        android:id="@+id/tvJp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="カタカナ"
@@ -20,6 +20,7 @@
         app:layout_constraintVertical_bias="0.404" />
 
     <TextView
+        android:id="@+id/tvromaj"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="KATAKANA"
@@ -27,7 +28,7 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView2"
+        app:layout_constraintTop_toBottomOf="@+id/tvJp"
         app:layout_constraintVertical_bias="0.135" />
 
     <TextView

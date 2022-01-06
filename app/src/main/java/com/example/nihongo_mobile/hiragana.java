@@ -446,7 +446,7 @@ public class hiragana extends AppCompatActivity {
         btnRE.setOnClickListener((new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                setHuruf = "や";
+                setHuruf = "れ";
                 setBaca = "RE";
                 setVoiceID = "41";
                 pindahHalaman(setHuruf , setBaca, setVoiceID);
@@ -557,7 +557,7 @@ public class hiragana extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 setHuruf = "じ";
-                setBaca = "ZI";
+                setBaca = "JI";
                 setVoiceID = "52";
                 pindahHalaman(setHuruf , setBaca, setVoiceID);
             }
@@ -607,7 +607,7 @@ public class hiragana extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 setHuruf = "ぢ";
-                setBaca = "DI";
+                setBaca = "DJI";
                 setVoiceID = "57";
                 pindahHalaman(setHuruf , setBaca, setVoiceID);
             }
@@ -617,7 +617,7 @@ public class hiragana extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 setHuruf = "づ";
-                setBaca = "DU";
+                setBaca = "DZU";
                 setVoiceID = "58";
                 pindahHalaman(setHuruf , setBaca, setVoiceID);
             }
@@ -802,7 +802,7 @@ public class hiragana extends AppCompatActivity {
         btnRU = findViewById(R.id.buttonhiragana_ru);
         btnRE = findViewById(R.id.buttonhiragana_re);
         btnRO = findViewById(R.id.buttonhiragana_ro);
-        btnWA = findViewById(R.id.buttonhiragana_wo);
+        btnWA = findViewById(R.id.buttonhiragana_wa);
         btnWO = findViewById(R.id.buttonhiragana_wo);
         btnN = findViewById(R.id.buttonhiragana_n);
         btnGA = findViewById(R.id.buttonhiragana_ga);

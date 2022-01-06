@@ -44,7 +44,19 @@
 
             <Space
                 android:layout_width="match_parent"
-                android:layout_height="100dp" />
+                android:layout_height="35dp"/>
+            <TextView
+                android:id="@+id/txtNoSoal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="No. 1/5"
+                android:textSize="30sp"
+                android:gravity="center"
+                />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="35dp" />
 
 
             <TextView
@@ -56,9 +68,7 @@
                 android:textSize="40dp"
                 android:textAlignment="center"/>
 
-            <Space
-                android:layout_width="match_parent"
-                android:layout_height="50dp" />
+
 
             <Button
                 android:id="@+id/button_audio_soal"
@@ -70,7 +80,7 @@
 
             <Space
                 android:layout_width="match_parent"
-                android:layout_height="50dp" />
+                android:layout_height="100dp" />
 
             <TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
                 android:layout_width="match_parent"

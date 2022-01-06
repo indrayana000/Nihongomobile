@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Nihongomobile">
         <activity
+            android:name=".splash_hiragana"
+            android:exported="true" />
+        <activity
             android:name=".halaman_percakapan"
             android:exported="false" />
         <activity

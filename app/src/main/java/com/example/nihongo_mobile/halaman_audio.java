@@ -87,17 +87,17 @@ public class halaman_audio extends AppCompatActivity {
             voices.add(12, R.raw.su);
             voices.add(13, R.raw.se);
             voices.add(14, R.raw.so);
-            voices.add(15, R.raw.to);
+            voices.add(15, R.raw.ta);
             voices.add(16, R.raw.chi);
             voices.add(17, R.raw.tsu);
             voices.add(18, R.raw.te);
             voices.add(19, R.raw.to);
-            voices.add(20, R.raw.no);
+            voices.add(20, R.raw.na);
             voices.add(21, R.raw.ni);
             voices.add(22, R.raw.nu);
             voices.add(23, R.raw.ne);
             voices.add(24, R.raw.no);
-            voices.add(25, R.raw.ho);
+            voices.add(25, R.raw.ha);
             voices.add(26, R.raw.hi);
             voices.add(27, R.raw.fu);
             voices.add(28, R.raw.he);
@@ -107,7 +107,7 @@ public class halaman_audio extends AppCompatActivity {
             voices.add(32, R.raw.mu);
             voices.add(33, R.raw.me);
             voices.add(34, R.raw.mo);
-            voices.add(35, R.raw.yo);
+            voices.add(35, R.raw.ya);
             voices.add(36, R.raw.yu);
             voices.add(37, R.raw.yo);
             voices.add(38, R.raw.ra);
@@ -115,7 +115,7 @@ public class halaman_audio extends AppCompatActivity {
             voices.add(40, R.raw.ru);
             voices.add(41, R.raw.re);
             voices.add(42, R.raw.ro);
-            voices.add(43, R.raw.wo);
+            voices.add(43, R.raw.wa);
             voices.add(44, R.raw.wo);
             voices.add(45, R.raw.n);
             voices.add(46, R.raw.ga);
@@ -127,7 +127,7 @@ public class halaman_audio extends AppCompatActivity {
             voices.add(52, R.raw.ji);
             voices.add(53, R.raw.zu);
             voices.add(54, R.raw.ze);
-            voices.add(55, R.raw.ze);
+            voices.add(55, R.raw.zo);
             voices.add(56, R.raw.da);
             voices.add(57, R.raw.dji);
             voices.add(58, R.raw.dzu);

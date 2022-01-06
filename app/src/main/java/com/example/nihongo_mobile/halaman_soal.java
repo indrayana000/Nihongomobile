@@ -23,8 +23,8 @@ public class halaman_soal extends AppCompatActivity {
     int jumlah = 0;
     int nilai = 0;
     int idVoice;
-    String tipe, soal, jawA, jawB, jawC, jawD, kunci, cekId;
-    TextView txtSoal;
+    String tipe, soal, kunci, cekId;
+    TextView txtSoal, txtNoSoal;
     Integer[] testArray = new Integer[20];
     Button btnA, btnB, btnC, btnD, btnAudio;
     DataHelper dbHelper;
@@ -44,7 +44,7 @@ public class halaman_soal extends AppCompatActivity {
         btnD = findViewById(R.id.buttonjawaban_1d);
         btnAudio = findViewById(R.id.button_audio_soal);
         txtSoal = findViewById(R.id.txtSoal);
-
+        txtNoSoal = findViewById(R.id.txtNoSoal);
         // Deklarasi list audio yang dipakai
         declareAudio();
         // Buat array 0-19 lalu acak
@@ -114,6 +114,7 @@ public class halaman_soal extends AppCompatActivity {
             if (jawaban.equals(kunci)){
                 nilai++;
             }
+            txtNoSoal.setText("No. " + String.valueOf(jumlah + 1) + "/5");
             getSoal(testArray[jumlah]);
         }else{
             if (jawaban.equals(kunci)){
@@ -135,6 +136,13 @@ public class halaman_soal extends AppCompatActivity {
 
 // 3. Get the <code><a href="/reference/android/app/AlertDialog.html">AlertDialog</a></code> from <code><a href="/reference/android/app/AlertDialog.Builder.html#create()">create()</a></code>
             AlertDialog dialog = builder.create();
+            dialog.setOnShowListener(new DialogInterface.OnShowListener() {
+                @Override
+                public void onShow(DialogInterface dialogInterface) {
+                    dialog.getButton(AlertDialog.BUTTON_POSITIVE).setTextColor(getResources().getColor(R.color.primaryorange));
+
+                }
+            });
             dialog.show();
         }
     }
